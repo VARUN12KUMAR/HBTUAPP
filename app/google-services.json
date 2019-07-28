@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "175419742346",
+    "firebase_url": "https://hbtuofficial-8de65.firebaseio.com",
+    "project_id": "hbtuofficial-8de65",
+    "storage_bucket": "hbtuofficial-8de65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175419742346:android:badc70b3eb503762",
+        "android_client_info": {
+          "package_name": "com.example.varun.hbtuofficial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175419742346-p35hf4a4rbql0niut9a4n974tlogttqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.varun.hbtuofficial",
+            "certificate_hash": "035a35e07a6a26b6417a484e1cbf629d0ceb7306"
+          }
+        },
+        {
+          "client_id": "175419742346-ca6sua3fhm4tembugdpj6n5m8l6mm9el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5VfRKbEEgf9jsOfTXd6eJ4zBilNd-y7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175419742346-ca6sua3fhm4tembugdpj6n5m8l6mm9el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+
+    <ImageView
+        android:id="@+id/image1"
+
+        android:layout_width="132dp"
+        android:layout_height="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/image" />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="184dp"
+        android:layout_toStartOf="@+id/editperson1"
+        android:src="@drawable/ic_person_black_24dp" />
+
+    <EditText
+        android:id="@+id/editperson1"
+        android:layout_width="327dp"
+        android:layout_height="41dp"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="173dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="249dp"
+        android:layout_toStartOf="@+id/editperson1"
+        android:src="@drawable/ic_email_black_24dp" />
+
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="327dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="239dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="Enter Your Gmail"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="229dp"
+        android:src="@drawable/ic_vpn_key_black_24dp" />
+
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="329dp"
+        android:layout_height="41dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="222dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="Enter Your Password"
+        android:inputType="numberPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="Sign UP" />
+
+    <TextView
+        android:id="@+id/signInGoogle"
+        android:layout_width="229dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/shape"
+        android:foregroundGravity="center"
+        android:text="Sign in With Google and Facebook">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/Haveacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/skyblue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Have An Already Account?" />
+
+
+
+
+
+</RelativeLayout>

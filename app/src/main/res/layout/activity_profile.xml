@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="134dp"
+        android:layout_height="101dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        app:srcCompat="@drawable/image" />
+
+    <TextView
+        android:id="@+id/name1111"
+        android:layout_width="192dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="253dp"
+        android:text="My Profile" />
+
+    <TextView
+        android:id="@+id/email2222"
+        android:layout_width="194dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/name1111"
+        android:layout_marginBottom="217dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/pass3333"
+        android:layout_width="194dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/name1111"
+        android:layout_marginBottom="157dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/editProf"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/shape1"
+        android:text="Edit Profile" />
+</RelativeLayout>
